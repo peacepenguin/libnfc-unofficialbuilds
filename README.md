@@ -69,5 +69,8 @@ mingw32-make
 # put compiled DLL file to the system32 directory: (c:\windows\syswow64\libnfc.dll on 64-bit computers!)  
 copy .\libnfc\libnfc.dll c:\windows\system32\libnfc.dll  
   
+# place libnfc.conf file under:
+c:\program files (x86)\libnfc\config\libnfc.conf
+
 ```
   
