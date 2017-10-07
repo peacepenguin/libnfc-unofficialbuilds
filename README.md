@@ -1,5 +1,5 @@
 ```
-# Compile NFC-Tools and libnfc for Windows - 64-BIT (x64) ONLY
+# Compile NFC-Tools utilities and examples and libnfc (libnfc.dll) for Windows! - 64-BIT (x64) ONLY
 
 # Note! These instructions use the peacepenguin fork of libnfc as of 2017.10.07 (October 7th, 2017).
 # These changes need tested!
