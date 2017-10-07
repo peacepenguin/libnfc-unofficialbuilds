@@ -61,15 +61,15 @@ rem create make files:
   
 cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release ..\libnfc  
   
-# run it again...  
+# run cmake again, same parameters, otherwise errors appear:
+
 cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release ..\libnfc  
   
+# build it!
 mingw32-make  
   
-  
-  ## successfully begins building and linking in x64 mode with modified cmakelists.txt file, but fails with undefined reference
-
-#put libnfc.conf into c:\program files (x86)\libnfc\config\libnfc.conf   
+# wrong location technically for a 64-bit system, but that's where it goes for now:
+#put your "libnfc.conf" into c:\program files (x86)\libnfc\config\libnfc.conf   
   
 # put compiled DLL file to the real system32 directory: (c:\windows\sysnative\libnfc.dll on syswow64 machines)  
 copy .\libnfc\libnfc.dll c:\windows\system32\libnfc.dll  
