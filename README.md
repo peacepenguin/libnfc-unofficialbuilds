@@ -51,7 +51,7 @@ git clone https://github.com/peacepenguin/libnfc.git
 # add some paths for current build session:  
   
 $env:Path += "c:\msys64\mingw64\bin;c:\msys64\mingw64\x86_64-w64-mingw32\lib;c:\msys64\mingw64\x86_64-w64-mingw32\include"
-cd C:\msys64\home\benjamin\libnfc-build-win64  
+cd C:\msys64\home\<your username>\libnfc-build-win64  
 
 #then, run "CMD.exe" 
 cmd.exe  
