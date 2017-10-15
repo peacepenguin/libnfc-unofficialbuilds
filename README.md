@@ -14,7 +14,7 @@ http://www.msys2.org/
  msys2-x86_64-xxxxxxxx.exe  
   
   
-##### Open the MSYS shell in mingw-64 mode (64-bit mode)  
+##### Open the MSYS shell in mingw-64 mode (64-bit mode)   
 ```  
 #update the MSYS system using pacman:  
 pacman -Syu  
@@ -39,7 +39,7 @@ C:\Program Files\libusb-win32
 #download libnfc source files:  
 cd ~  
 mkdir libnfc-build-win64  
-git clone https://github.com/nfc-tools/libnfc.git
+git clone https://github.com/peacepenguin/libnfc.git
     
 # launch windows powershell x64 (non-admin)  
 # add some paths for current build session:  
